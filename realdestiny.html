@@ -1,0 +1,58 @@
+<link rel="shortcut icon" href="icon.GIF">
+<title>all hail</title>
+
+<style>
+    html {overflow:hidden}
+    body 
+    {
+        cursor: url('realdestiny/cursor1.cur'), default;
+        background-image: url(realdestiny/background.png);
+        background-size: contain;
+    }
+    
+    a
+    {
+        cursor: url('realdestiny/cursor2.cur'), auto;
+    }
+    div.blazeit
+    {
+        position: absolute;
+        width: 524;
+        height: 720;
+        margin-left: -272px;
+    }
+    #blazeit1 
+    {
+    bottom: 10%;
+    left: 25%;
+    animation: blazeit1 5s linear 0s infinite;
+    }
+    #blazeit2
+    {
+        bottom: 10%;
+        left: 75%;
+        animation: blazeit2 5s linear 0s infinite;   
+    }
+    @keyframes blazeit1
+    {
+       100% {transform: rotate(360deg);} 
+    }
+    @keyframes blazeit2 
+    {
+        100% {transform: rotate(-360deg);}
+    }
+
+    
+</style>
+
+<body>
+    <audio preload="auto" autoplay="autoplay" loop="loop">
+        <source src="realdestiny\titlemusic.mp3" type="audio/mp3">
+    </audio>
+    <audio preload="auto" autoplay="autoplay" loop="loop">
+        <source src="realdestiny\titlemusic2.mp3" type="audio/mp3">
+    </audio>
+    <div class="blazeit" id="blazeit1"><a href="index.html"><img id="blazeit1" src="realdestiny\titleimage.gif"></a></div>
+    <div class="blazeit" id="blazeit2"><img src="realdestiny\titleimage.gif"></img></div>
+
+</body>

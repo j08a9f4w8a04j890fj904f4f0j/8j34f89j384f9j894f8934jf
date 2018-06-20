@@ -1,0 +1,75 @@
+<link rel="shortcut icon" href="icon.GIF">
+<title>e up h or ia</title>
+
+<style>
+    html {overflow:hidden}
+    body 
+    {
+        cursor: url('euphoria/cursor1.cur'), default;
+        background-image: url(euphoria/background.gif);
+    }
+    
+    a
+    {
+        cursor: url('euphoria/cursor2.cur'), auto;
+    }
+    
+    #night
+    {
+        position: absolute;
+        left: 50%;
+        width: 800px;
+        height: 100px;
+        margin-left: -400px;
+        margin-top: 750px;
+    }
+    #no
+    {
+        position: absolute;
+        left: 50%;
+        height: 600px;
+        width: 800px;
+        margin-left: -400px;
+        margin-top: 100px;   
+    }
+    div.blazeit
+    {
+        position: absolute;
+        width: 524;
+        height: 720;
+        margin-left: -272px;
+    }
+    #blazeit1 
+    {
+    bottom: 10%;
+    left: 25%;
+    animation: blazeit1 5s linear 0s infinite;
+    }
+    #blazeit2
+    {
+        bottom: 10%;
+        left: 75%;
+        animation: blazeit2 5s linear 0s infinite;   
+    }
+    @keyframes blazeit1
+    {
+       100% {transform: rotate(360deg);} 
+    }
+    @keyframes blazeit2 
+    {
+        100% {transform: rotate(-360deg);}
+    }
+
+    
+</style>
+
+<body>
+    <audio preload="auto" autoplay="autoplay" loop="loop">
+        <source src="euphoria\titlemusic.mp3" type="audio/mp3">
+    </audio>
+    <a href="truth.html"><img id="no" src="euphoria\dance.gif"></a>
+    <a href="dream.html"><img id="night" src="euphoria\night.jpg"></a>
+    <a href="beach.html"><img id="blazeit1" src="euphoria\weed.png"></a>
+    <div class="blazeit" id="blazeit2"><img src="euphoria/weed.png"></img></div>
+
+</body>
